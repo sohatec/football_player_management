@@ -37,20 +37,35 @@ The project does not use any database management systems or connect to databases
 ## 🚀 Install and run
 1 -- Open CMD or Git Bash at the location where you want to save the project,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then enter the following command to download the project:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git clone [https://github.com/sohatec/moto_racing.git](https://github.com/sohatec/moto_racing.git)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The download folder name should be "moto_racing".<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git clone [https://github.com/sohatec/football_player_management.git](https://github.com/sohatec/football_player_management.git)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The download folder name should be "football_player_management".<br>
 2 -- Open any Java-supported IDE such as IntelliJ IDEA, Eclipse, NetBeans, and use JDK 21.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Open the project named moto_racing, access src/Main.java, and then run it.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Open the project named football_player_management, access src/Main.java, and then run it.<br>
 
 ## 💡 Usage Flow
 When running the application, you can execute tasks by calling the task functions of the Cabinet class.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 1: Display the Game Banner.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 2: Display the greeting and current time.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 3: Enter the number of racers and their details (Car Manufacturer, Name, Race Number).<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 4: View the Formation Lap results.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 5: View the speed leaderboard after the Opening Lap.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 6: Find the champion racer.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 7: Run a countdown timer effect.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 1 – Create Player: Create a new player, choosing between Regular Player and Star Player (via chooseFlag()).  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 2–6 – Search Player: Search players by ID, Name, Position, National, and Status.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 7–13 – Update Player: Update a player’s Name, National, Age, Position, Shirt Number, Base Salary, and Status.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 14 – Display All Players: Print a header and show the full list of players.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 15–16 – Monthly Salary: Calculate a player’s salary for a given month and year, for regular players (Task 15) and star players (Task 16).  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 17–18 – Yearly Salary: Calculate a player’s salary for a given year, for regular players (Task 17) and star players (Task 18).  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 19–22 – Total Points: Calculate a player’s total points by month (Tasks 19–20) and by year (Tasks 21–22).  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 23 – Create Match: Create a new match record.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 24–27 – Search Match: Search matches by ID, Date, Opponent, and Type.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 28–30 – Update Match: Update a match’s Date, Opponent, and Type.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 31 – Display All Matches: Show the full list of matches.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 32–33 – Create and Search Performance: Create a performance record for a player in a match and search for existing performance records.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 34–38 – Update Performance: Update Goal, Assist, Yellow Card, Red Card, and Minutes Played.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 39 – Display All Performance: Show the full list of performance records.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 40 – Create Training: Create a new training session.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 41–44 – Search Training: Search training sessions by ID, Date, Location, and Topic.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 45–47 – Update Training: Update a training session’s Date, Location, and Topic.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 48 – Display All Training: Show the full list of training sessions.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 49–53 – Attendance Management: Create attendance, search attendance, update the attending player ID, update Attend/Absent status, and display all attendance records.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 54–55 – Reports: Generate the Salary Report (rm.report1()) and Ranking Report (rm.report2()), and read them back from Salary_Report.txt and Ranking_Report.txt.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 56–57, 60–61, 64–65, 68–69 – Save/Load TXT Files: Save and read text files for Regular_Player.txt, Star_Player.txt, Match_Record.txt, and Training_Record.txt.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task 58–59, 62–63, 66–67, 70–71 – Save/Load BIN Files: Save and read binary files for Regular_Player.bin, Star_Player.bin, Match_Record.bin, and Training_Record.bin.  
 
 ## 🐳 Docker
 Condition: You must install Docker Desktop software.  
