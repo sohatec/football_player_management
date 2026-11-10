@@ -77,25 +77,29 @@ Docker Hub: [https://hub.docker.com/r/henrylecode/moto_racing](https://hub.docke
 src/  
 ├── controller/<br>
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Cabinet.java<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── RacingManager.java<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── MatchManager.java<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── PlayerManager.java<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── ReportManager.java<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── SalaryManager.java<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── TrainingManager.java<br>
 ├── data/<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── DataRacing.java<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── DataManager.java<br>
 ├── entity/<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Aprilia.java<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Ducati.java<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Honda.java<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── MotoGp.java<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Racing.java<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Yamaha.java<br>
-├── menu/<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── AttendanceRecord.java<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── MatchRecord.java<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── PerformanceRecord.java<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Player.java<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── RegularPlayer.java<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── StarPlayer.java<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── TrainingRecord.java<br>
+├── util/<br>
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Menu.java<br>
 └── Main.java<br>
 
 ## 🖼️ Images
-![Image of game](https://github.com/sohatec/moto_racing/blob/main/images/1.png?raw=true)<br>
-![Image of game](https://github.com/sohatec/moto_racing/blob/main/images/2.png?raw=true)<br>
-![Image of game](https://github.com/sohatec/moto_racing/blob/main/images/3.png?raw=true)<br>
-![Image of game](https://github.com/sohatec/moto_racing/blob/main/images/4.png?raw=true)<br>
+![Image of game](https://github.com/sohatec/football_player_management/blob/main/images/1.png?raw=true)<br>
+![Image of game](https://github.com/sohatec/football_player_management/blob/main/images/2.png?raw=true)<br>
+![Image of game](https://github.com/sohatec/football_player_management/blob/main/images/3.png?raw=true)<br>
 
 ## 🧑‍💻 Members
 1. Vuong Tran Hieu Nghia - Analyze<br>
