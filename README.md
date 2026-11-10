@@ -70,8 +70,8 @@ When running the application, you can execute tasks by calling the task function
 ## 🐳 Docker
 Condition: You must install Docker Desktop software.  
 Open Git Bash/CMD then enter this commend to download and run app.  
-'docker run -it --rm henrylecode/moto_racing:1.0'  
-Docker Hub: [https://hub.docker.com/r/henrylecode/moto_racing](https://hub.docker.com/r/henrylecode/moto_racing)
+'docker run -it --rm henrylecode/football_player_management:1.0'  
+Docker Hub: [https://hub.docker.com/r/henrylecode/football_player_management](https://hub.docker.com/r/henrylecode/football_player_management)
 
 ## 📂 Directory structure
 src/  
